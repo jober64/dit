@@ -1,3 +1,3 @@
 FROM rhel7
-yum install wget
+RUN yum install -y wget
 ENTRYPOINT ["tail", "-f", "/dev/null"]
